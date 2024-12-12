@@ -1,0 +1,17 @@
+{
+  "name": "jsn-wp-maria-docker",
+  "version": "1.0.0",
+  "description": "A custom WordPress theme with Tailwind CSS and Shadcn/ui support.",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1"
+  }
+}
